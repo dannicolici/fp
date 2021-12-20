@@ -1,0 +1,66 @@
+### Java ###
+.class
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+# JVM crash logs
+hs_err_pid*
+
+
+### Generic ###
+*.log
+
+### Maven ###
+target
+.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ ###
+.idea
+*.iml
+
+.gradle
+build
+
+### Windows ###
+thumbs.db
+desktop.ini
+*.msi
+
+### MacOS ###
+.DS_Store
+
+### Vim ###
+[._]*.sw[a-p]
+
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### Eclipse ###
+.settings/
+.classpath
+.project
+*.jsfdia
+*.pageflow
+*.tern-project
+
+### Terraform ###
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+crash.log
+
+### minio ###
+storage
